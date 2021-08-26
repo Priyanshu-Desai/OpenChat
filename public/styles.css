@@ -1,0 +1,63 @@
+  .header {
+    background: #03bafc;
+    font-family: 'MuseoModerno', cursive;
+    margin: auto -20px;
+    padding: 16px 32px;
+    display: inline-block;
+    text-align: center;
+    width: 116.75rem;
+    height: auto;
+    position: fixed;
+    top: 0;
+  }
+
+  .post {
+    background: #cfcfcf;
+    margin-left: 1rem;
+    margin-top: 5rem;
+    margin-right: 1rem;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .post-text{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .post-author{
+    padding-top: 1rem;
+  }
+
+  .post-content{
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+
+  .post-heading{
+    text-align: center;
+  }
+
+  .post-inputs{
+    position: absolute;
+    width: 97%;
+    bottom: 1rem;
+    background: #cfcfcf;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    align-items: center;
+  }
+
+  .input{
+    display: block;
+    margin: auto;
+    width: 80%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .send{
+    border-radius: 1rem;
+    display: block;
+    margin: auto;
+    margin-right: 2rem;
+  }
