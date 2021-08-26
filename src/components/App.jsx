@@ -4,11 +4,20 @@ import Post from './Post'
 import InputArea from './InputArea'
 
 function App(){
+  const [posts, setPosts] = React.useState([])
+
+  function addPost(newPost){
+      setPosts(prevPosts => {
+        return [...prevPosts, newPost]
+      })
+      console.log(posts)
+  }
+
   return(
     <div>
     <Header/>
     <Post name='user123' title='hello there' content='my favourite colour is green: #00ff00'/>
-    <InputArea/>
+    <InputArea onAdd={addPost}/>
     </div>
   )
 }
