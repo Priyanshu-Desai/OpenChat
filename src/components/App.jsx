@@ -16,7 +16,12 @@ function App(){
   return(
     <div>
     <Header/>
-    <Post name='user123' title='hello there' content='my favourite colour is green: #00ff00'/>
+    {posts.map((postItem, index) => {
+      return (
+        <Post key={index} id={index} name={postItem.name} title={postItem.title} content={postItem.content}/>
+      )
+    })}
+
     <InputArea onAdd={addPost}/>
     </div>
   )
