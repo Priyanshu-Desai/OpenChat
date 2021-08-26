@@ -1,4 +1,4 @@
-# social app
+# OpenChat
 a very simple social media app made using react
 
 # requirements

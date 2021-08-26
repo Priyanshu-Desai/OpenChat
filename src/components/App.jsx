@@ -7,7 +7,7 @@ function App(){
   return(
     <div>
     <Header/>
-    <Post/>
+    <Post name='user123' title='hello there' content='my favourite colour is green: #00ff00'/>
     <InputArea/>
     </div>
   )
