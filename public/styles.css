@@ -38,7 +38,7 @@
   }
 
   .post-inputs{
-    position: absolute;
+    position: fixed;
     width: 97%;
     bottom: 1rem;
     background: #cfcfcf;
