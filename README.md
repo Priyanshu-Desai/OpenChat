@@ -1,6 +1,9 @@
 # OpenChat
 a very simple social media app made using react
 
+# Versions
+you can download OpenChat version 1.1 here 
+
 # requirements
 to run this app you need to have <a href='https://nodejs.org'>node.js</a>.
 
